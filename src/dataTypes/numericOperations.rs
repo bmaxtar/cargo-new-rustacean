@@ -6,6 +6,7 @@ fn main() {
     //Multiplication et division
     let product = 4 * 3;
     let quotient = 56.7 / 42.2;
+    let tronqué = -5 / 3; 
 
     //Reste de la division
     let remainder = 63 % 5;
