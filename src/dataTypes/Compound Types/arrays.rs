@@ -22,4 +22,6 @@ fn main () {
     let index = 10;
     let element = x[index];  // panic: index out of bounds: the len is 5 but the index is 10
     println!("The value of element is: {}", element);
+
+    
 }
