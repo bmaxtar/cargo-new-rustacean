@@ -41,7 +41,7 @@ fn another_fn(x: i32, y: i32) {
 
 //Statements and Expressions in Function Bodies
 fn main_fn_body() {
-    
+
     let x = 5;
     // This is a statement
     let y = {
@@ -52,4 +52,14 @@ fn main_fn_body() {
 
     println!("The value of y is: {}", y);
   
+}
+
+//Functions with Return Values
+
+fn five() -> i32 {
+    5
+}
+fn main() {
+    let x = five();
+    println!("The value of x is: {}", x);
 }
